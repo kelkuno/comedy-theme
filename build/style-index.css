@@ -47,6 +47,12 @@ body {
 section {
     margin-bottom: var(--space-large);
 }
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 img {
     max-width: 100%;
 }
@@ -62,6 +68,9 @@ text-transform: uppercase;
 }
 p{
     margin: 0 0 20px;
+}
+.text-center {
+    text-align: center;
 }
 .primary-btn {
   background-color: var(--primary);
@@ -112,6 +121,20 @@ p{
     background-position: center;
 }
 
+/* Footer Section  */
+.footer-nav {
+    display:flex;
+    justify-content: center;
+}
+.footer-nav > * {
+    width: 65px;
+    margin: 0 .5rem 2rem;
+}
+.copyright {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 /* about section  */
 
 
@@ -140,7 +163,6 @@ p{
 .event-title {
     flex: 1;
 }
-
 
 
 /* Tablet and Smaller Desktop */
