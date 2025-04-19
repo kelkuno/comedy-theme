@@ -13,9 +13,9 @@
                     <nav>
                         <ul class="main-nav">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="<?php echo get_post_type_archive_link('event'); ?>">Shows</a></li>
-                            <li><a href="/comedy">Comedy</a></li>
+                            <li <?php if(is_page('about')) echo 'class="current-menu-item"' ?>><a href="/about">About</a></li>
+                            <li <?php if (get_post_type() == 'event') echo 'class="current-menu-item"'; ?>><a href="<?php echo get_post_type_archive_link('event'); ?>">Shows</a></li>
+                            <li <?php if(is_page('comedy')) echo 'class="current-menu-item"' ?>><a href="/comedy">Comedy</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>

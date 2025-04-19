@@ -132,8 +132,10 @@ p{
     width: 30%;
 }
 .logo-wrapper img {
-    width: 100%;
-    
+    width: 100%; 
+}
+.current-menu-item {
+    border: solid 2px red;
 }
 
 /* header section  */
