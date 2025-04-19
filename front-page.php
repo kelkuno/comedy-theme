@@ -1,7 +1,12 @@
 <?php get_header(); ?>
     <!-- intro  -->
     <section class="header-img">
-
+        <div class="gradient"></div>
+        <div class="header-content-wrapper">
+            <h1>Ali Sultan</h1>
+            <h2>Comedian Writer Actor</h2>
+            <div><a class="primary-btn" href="#">Watch Stand Up</a></div>
+        </div>
     </section>
     <!-- about section  -->
     <section>

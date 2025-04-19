@@ -8,7 +8,7 @@
     </head>
     <body <?php body_class(); ?>>
         <header>
-            <div class="container">
+            <div class="container header-wrapper">
                 <div class="main-nav-wrapper">
                     <div class="logo-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ali-sultan-logo.svg" alt="Ali Sultan Logo" width="185">
