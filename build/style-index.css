@@ -187,6 +187,19 @@ p{
 }
 
 /* about section  */
+.about-wrapper {
+    display:flex;
+    gap: 3rem;
+    border:solid 4px white;
+}
+.about-img {
+border: solid 2px green;
+width:30%;
+}
+.about-content{
+    border: solid 2px yellow;
+    width: 70%;
+}
 
 
 /* Event section  */
@@ -249,6 +262,18 @@ p{
     }
     .logo-wrapper{
         width: 45%;
-    };
+    }
+    .about-wrapper {
+        border: solid 2px red;
+        flex-wrap: wrap;
+    }
+    .about-img {
+        width: 100%;
+        order: 1;
+    }
+    .about-content {
+        width: 100%;
+        order: 2;
+    }
 }
   
