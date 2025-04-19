@@ -15,7 +15,7 @@
                             <li><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="<?php echo get_post_type_archive_link('event'); ?>">Shows</a></li>
-                            <li><a href="#">Watch</a></li>
+                            <li><a href="/comedy">Comedy</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
