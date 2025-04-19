@@ -4,16 +4,26 @@
     /* colors */
     --primary: #D500F9;
     --primary: #E040FB;
+    --primary: #F5BFFE;
+    --primary: #FF6D3C;
+    --primary: #EFFC40;
+    --primary: #FFE193;
+    --primary: #FBC15C;
+    --primary: #C59E01;
     --secondary: #EFFC40;
+    --secondary: #AB8AF8;
     --black: #1c1c1c;
-    --white: #ffffff;
+ 
+    --white: #fce2d7;
+    --white: #AB8AF8;
+    --white: #F5BFFE;
 
     /* fonts */
 
   
     /* spacing */
     --space-small: 3rem;
-    --space-large: 6rem;
+    --space-large: 4rem;
     --space-large-mobile: 1rem;
 }
 
@@ -66,6 +76,13 @@ text-transform: uppercase;
   color:var(--primary);
   margin-bottom: 1rem;
 }
+h1{
+    font-family: 'Fira Sans Condensed' , sans-serif;
+    font-weight:700;
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+    color: var(--primary);
+}
 p{
     margin: 0 0 20px;
 }
@@ -89,7 +106,7 @@ p{
 /* Main Nav styles  */
 .main-nav-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 10vh;
@@ -103,6 +120,13 @@ p{
     color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: .125em;
+    font-weight: 600;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.main-nav a:hover {
+    border-bottom: solid 2px var(--white);
 }
 .logo-wrapper {
     width: 30%;
@@ -114,15 +138,23 @@ p{
 
 /* header section  */
 .header-img {
-    height: 90vh;
-    background-image: url('../images/ali-cover.jpg');
+    height: 80vh;
+    background-image: url('../images/ali-cover-test3.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+}
+.header-img > * {
+    border: solid 1px white;
+    width: 100%;
 }
 .gradient {
     width: 100%;
-    height: 40%;
+    height: 20%;
     background: linear-gradient(
         to bottom, 
         rgba(28, 28, 28, 1), /* solid color at top */
@@ -131,14 +163,14 @@ p{
 }
 .header-content-wrapper {
     width: 100%;
-    border: solid 2px blue;
-    text-align: center;
+    /* border: solid 2px blue; */
 }
-/* .header-content-wrapper > * {
-    border: solid 2px green;
-    text-align: center;
-  
-} */
+.credit-group {
+    /* border: solid 2px fuchsia; */
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+}
 
 /* Footer Section  */
 .footer-nav {

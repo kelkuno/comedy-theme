@@ -10,13 +10,15 @@
         <header>
             <div class="container header-wrapper">
                 <div class="main-nav-wrapper">
-                    <div class="logo-wrapper">
+                    <!-- <div class="logo-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ali-sultan-logo.svg" alt="Ali Sultan Logo" width="185">
-                    </div>
+                    </div> -->
                     <nav>
                         <ul class="main-nav">
                             <li><a href="#about">About</a></li>
                             <li><a href="#shows">Shows</a></li>
+                            <li><a href="#">Watch</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
                 </div>

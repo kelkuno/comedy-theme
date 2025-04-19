@@ -7,6 +7,14 @@
             <h2>Comedian Writer Actor</h2>
             <div><a class="primary-btn" href="#">Watch Stand Up</a></div>
         </div>
+        <div>
+            <p>As seen on</p>
+            <div class="credit-group">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="Link to Ali Sultan Instagram page" width="25">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="Link to Ali Sultan Instagram page" width="25">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="Link to Ali Sultan Instagram page" width="25">
+            </div>
+        </div>
     </section>
     <!-- about section  -->
     <section>
